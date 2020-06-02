@@ -1,6 +1,6 @@
 {
   "name": "zoro-lerna-cli",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "> TODO: description",
   "author": "敖平 <1216791584@qq.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "chalk": "^4.0.0",
-    "zoro-lerna-cli-shared-utils": "^0.2.1"
+    "zoro-lerna-cli-shared-utils": "^0.3.0"
   },
   "gitHead": "76acc3eb3792be520790a8d9596f987ff9f2074a"
 }
