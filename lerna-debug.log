@@ -1,0 +1,6 @@
+36 error Error: Command failed: git tag v0.0.1 -m v0.0.1
+36 error fatal: tag 'v0.0.1' already exists
+36 error
+36 error     at makeError (/Users/isaacho/.nvm/versions/node/v12.16.1/lib/node_modules/lerna/node_modules/_execa@1.0.0@execa/index.js:174:9)
+36 error     at /Users/isaacho/.nvm/versions/node/v12.16.1/lib/node_modules/lerna/node_modules/_execa@1.0.0@execa/index.js:278:16
+36 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
