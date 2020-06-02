@@ -1,5 +1,5 @@
 {
-  "name": "@zoro-lerna/cli",
+  "name": "zoro-lerna-cli",
   "version": "0.1.0",
   "description": "> TODO: description",
   "author": "敖平 <1216791584@qq.com>",
@@ -20,7 +20,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zoro-lerna/cli-shared-utils": "^0.1.0",
+    "zoro-lerna-cli-shared-utils": "^0.1.0",
     "chalk": "^4.0.0"
-  }
+  },
+  "gitHead": "76acc3eb3792be520790a8d9596f987ff9f2074a"
 }
