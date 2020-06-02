@@ -1,5 +1,5 @@
 {
-  "name": "@mo-demo/cli",
+  "name": "@zoro-lerna/cli",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "敖平 <1216791584@qq.com>",
@@ -22,5 +22,6 @@
   "dependencies": {
     "@mo-demo/cli-shared-utils": "^0.0.1",
     "chalk": "^4.0.0"
-  }
+  },
+  "gitHead": "e7ba6dd6d901cee7a60d7b7d9b4d2aadd5a334b0"
 }
