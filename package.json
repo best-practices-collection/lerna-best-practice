@@ -10,7 +10,9 @@
     "commitizen": "^4.1.2",
     "cz-lerna-changelog": "^2.0.2",
     "husky": "^4.2.5",
-    "lerna": "^3.22.0"
+    "lerna": "^3.22.0",
+    "lint-staged": "^10.2.7",
+    "standard": "^14.3.4"
   },
   "config": {
     "commitizen": {
@@ -19,7 +21,14 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   }
 }
